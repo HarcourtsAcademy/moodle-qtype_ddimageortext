@@ -26,19 +26,19 @@
 }
 
 .que.ddimageortext .group1, form.mform fieldset#id_previewareaheader .group1 {
-    background-color: #FFFFFF;
+    background-color: #FF6; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddimageortext .group2, form.mform fieldset#id_previewareaheader .group2 {
-    background-color: #B0C4DE;
+    background-color: #9F9; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddimageortext .group3, form.mform fieldset#id_previewareaheader .group3 {
-    background-color: #DCDCDC;
+    background-color: #9CF; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddimageortext .group4, form.mform fieldset#id_previewareaheader .group4 {
-    background-color: #D8BFD8;
+    background-color: #F96; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddimageortext .group5, form.mform fieldset#id_previewareaheader .group5 {
-    background-color: #87CEFA;
+    background-color: #6FF; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 .que.ddimageortext .group6, form.mform fieldset#id_previewareaheader .group6 {
     background-color: #DAA520;
@@ -67,6 +67,7 @@
     border: 1px solid black;
     position: absolute;
     z-index: 1;
+    box-shadow: inset 2px 2px 4px #444; /* Academy Patch #017 Drag and Drop Question usability improvements */
 }
 
 .que.ddimageortext .dropzone.yui3-dd-drop-over.yui3-dd-drop-active-valid {
